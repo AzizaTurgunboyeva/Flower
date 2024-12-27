@@ -1,0 +1,10 @@
+-- Active: 1733321925591@@127.0.0.1@3306
+CREATE DATABASE Products
+
+ USE products
+
+ CREATE TABLE products(id SMALLINT PRIMARY key AUTO_INCREMENT, name VARCHAR(32), price DECIMAL, date DATETIME)
+
+show tables
+
+DESCRIBE products
